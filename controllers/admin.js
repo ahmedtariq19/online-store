@@ -1,4 +1,5 @@
 const Product = require("../models/product");
+const User = require("../models/user");
 
 const expressValidator = require("express-validator");
 
@@ -144,6 +145,14 @@ exports.postDeleteProduct = (req, res, next) => {
   Product.deleteOne({ _id: prodId, userId: req.user._id })
     .then(() => {
       console.log("DESTROYED PRODUCT");
+      // Remove the item that was just deleted from all users carts
+      User.find({}, (err, users) => {
+        users.forEach(user => {
+          user.removeFromCart(prodId);
+        });
+      });
+    })
+    .then(() => {
       res.redirect("/admin/products");
     })
     .catch(err => console.log(err));
