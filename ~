@@ -1,0 +1,83 @@
+pick 190640e Initial commit, removed sensitive data from previous repo
+pick f36145d password reset implemented
+pick fd8d8d4 auth implemented to display products only created by the user
+pick f652e2a user can't edit or delete without auth now
+pick 67f23cb fixed minor bug
+s 2ad4a12 Update README.md
+pick e04a1ae resolving various errors to get back up and running
+pick e3cdae5 adding some styling fixes for responsiveness
+pick a3b701c added eslint
+pick 0f3b54b altering views
+pick 4e9132d Rather have GBP pricing
+pick 7df0edf shifintg around login error
+pick b841940 placing error inside form for signup
+pick b5538ed resetting postion of signup error
+pick 8a4845f formatting with prettier
+pick b29a684 signup validation, some async validation
+pick 277d6d2 storing old user data for a better user experience
+pick 5f81fc2 adding styling for validation errors on signup
+pick 8bca792 login validation
+pick a3d14bb sanitizing user input
+pick adedc65 also trimming the confirm password
+pick c121c6e add product validation
+pick ed934c7 product editing validation
+pick 57fa778 resolved a bug regarding adding an item to your cart, then deleting it in the admin control panel
+s 8a52808 fixing comment
+s 157c8c2 Update README.md
+pick 954ab6e small change
+s a7a1ef3 Update README.md
+pick 1227110 altered edit-product.ejs to accept an image file rather than an image url
+pick 124e2ec database should now currently store the image path for the uploaded image
+pick 3ee279a changes to orders.ejs for invoice href
+pick 6bedae6 added a 500 error page
+pick 5c76637 error handling
+pick b18c7c7 fixed error handling
+pick 322600c need to use next() inside an async block instead of throwing
+pick ab2fe58 correct orders.ejs file
+pick d8f4ccf better to use a readstream rather than readFile - prevents server potentially running out of memory - also better ux
+pick a325691 deleting files correctly now if an admin deletes a product - remove the image
+s 4e0b529 Update README.md
+s b5adca9 Update README.md
+s f089a0a Update README.md
+s d264d01 Update README.md
+s c97810d Update README.md
+pick c27494e added pagination for shop and products page
+s 7f7e687 Update README.md
+pick bcc0f31 added checkout page
+pick 956c120 experimenting with client side async javascript to delete products
+s ff7dc97 Update README.md
+pick 0dab8bf tiny error in naming for the button
+pick 344f46a processing payments with Stripe
+s a346ab9 Update README.md
+s cef8fd7 Update README.md
+s 4ca3e6c Update README.md
+s 99e55e6 Update README.md
+pick 1e6331e Bump mongoose from 5.6.2 to 5.7.5
+pick 9bfff8f Bump lodash from 4.17.11 to 4.17.13
+s 02d0688 Update README.md
+pick 8be94a6 Bump handlebars from 4.1.2 to 4.5.3
+
+# Rebase 01f4f1b onto 9bfff8f (58 commands)
+#
+# Commands:
+# p, pick <commit> = use commit
+# r, reword <commit> = use commit, but edit the commit message
+# e, edit <commit> = use commit, but stop for amending
+# s, squash <commit> = use commit, but meld into previous commit
+# f, fixup <commit> = like "squash", but discard this commit's log message
+# x, exec <command> = run command (the rest of the line) using shell
+# b, break = stop here (continue rebase later with 'git rebase --continue')
+# d, drop <commit> = remove commit
+# l, label <label> = label current HEAD with a name
+# t, reset <label> = reset HEAD to a label
+# m, merge [-C <commit> | -c <commit>] <label> [# <oneline>]
+# .       create a merge commit using the original merge commit's
+# .       message (or the oneline, if no original merge commit was
+# .       specified). Use -c <commit> to reword the commit message.
+#
+# These lines can be re-ordered; they are executed from top to bottom.
+#
+# If you remove a line here THAT COMMIT WILL BE LOST.
+#
+# However, if you remove everything, the rebase will be aborted.
+#
