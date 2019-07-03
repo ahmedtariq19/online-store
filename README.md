@@ -2,39 +2,54 @@
 
 An online shop created with Node.js, Express.js & Mongoose
 
-## What I've learned
 
-Node.js Basics &check;
+## What I've learned about in this project
 
-Efficient Development (npm etc) &check;
+Node.js Basics
 
-Express.js &check;
+Efficient Development
+- npm, nodemon, debugging a Node application
 
-Templating Engines &check;
+Express.js
 
-MVC &check;
+Templating Engines
+- Pug, Handlebars, EJS
 
-Advanced Routes & Models &check;
+MVC
+- Theory/principles of the pattern
 
-Node + SQL (MySQL) &check;
+Advanced Routes & Models
+- Dynamic routing, defining and creating better models
 
-Sequelize &check;
+SQL & MySQL 
+- Querying a database within a Node application
 
-Node + NoSQL (MongoDB) &check;
+Sequelize & MySQL
+- Benefits of ORM's
 
-Mongoose &check;
+NoSQL & MongoDB 
+- Experimenting with a non-relational database
 
-Sessions & Cookies &check;
+Mongoose & MongoDB 
+- Rewrote my application to use this
 
-Authentication &check;
+Sessions & Cookies 
+- Express-session, setting, manipulating and configuring cookies
 
-Sending E-Mails &check;
+Authentication 
+- Signup & Login, Bcrypt, CSRF tokens, Password reset (& reset token expiry)
 
-User Input Validation &check;
+Sending E-Mails 
+- Nodemailer & SendGrid
 
-Error Handling &check;
+User Input Validation & Sanitisation 
+- Express-validator
 
-File Uploads & Downloads
+Error Handling 
+- Throwing Error objects so that our errorController can handle these
+
+File Uploads & Downloads 
+- Multer, createWriteStream/createReadStream, PDFKit
 
 Pagination
 
