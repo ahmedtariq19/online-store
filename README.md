@@ -1,9 +1,9 @@
-# nodejs-shop
+# node-shop
 
 An online shop created with Node.js, Express.js & Mongoose
 
 
-## What I've learned about in this project
+## What I've learned in this project
 
 Node.js Basics
 
@@ -59,14 +59,6 @@ Async Requests
 
 Handling Payments
 - Using Stripe
-
-Basic & Advanced REST API Features
-
-Async-await
-
-Websockets & Socket.io
-
-GraphQL
 
 Deployment
 
